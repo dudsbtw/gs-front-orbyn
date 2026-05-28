@@ -14,3 +14,12 @@ img{max-width:100%;display:block}
   radial-gradient(circle at 30% 0%,#013644c0,transparent 60%),
   radial-gradient(circle at 80% 80%,#3708cf8a,transparent 55%)
 }  
+.frase{
+  text-align:center;
+  font-size:26px;
+  font-weight:400;
+  margin-top:20px;
+  color: #00d4ff;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
