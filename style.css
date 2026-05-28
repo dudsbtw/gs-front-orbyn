@@ -1,1 +1,16 @@
+*{margin:0;padding:0;box-sizing:border-box}
+body{
+  background:#0b153b;
+  color:#18c944;
+  font:17px/1.8 Nunito,sans-serif
+}
+a{text-decoration:none;color:inherit}
+img{max-width:100%;display:block}
 
+.hero{
+  text-align:center;
+  padding:100px 20px 80px;
+  background:
+  radial-gradient(circle at 30% 0%,#013644c0,transparent 60%),
+  radial-gradient(circle at 80% 80%,#3708cf8a,transparent 55%)
+}  
