@@ -1,6 +1,6 @@
-# gs-front-orbyn
+## Orbyn - Front-End - Global Solutins
 
-Repositório de Front-End da Orbyn para a Global Solutions (FIAP).
+Repositório de Front-End da Orbyn para a Global Solutions da FIAP.
 
 ---
 
@@ -34,4 +34,9 @@ gs-front-orbyn/
 
 ## Equipe
 
-Desenvolvido por estudantes da FIAP como parte da Global Solutions 2025.
+# Desenvolvido por:
+Eduardo Felix Frois Silva - 574103
+Gabriel Henique Ongarelli Reis - 572636
+Lucas Rodrigues dos Santos - 571778
+Matheus de Amorim Brito - 572435
+Thiago  Gomes Nascimento - 569436
