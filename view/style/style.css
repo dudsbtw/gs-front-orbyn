@@ -2,19 +2,58 @@
 margin:0;
 padding:0;
 box-sizing:border-box;
+scroll-behavior:smooth;
 }
 
 body{
 background:#06080f;
 color:#e0e8ff;
 font-family:'Inter',sans-serif;
-padding-top:75px;
+padding-top:80px;
 overflow-x:hidden;
 }
 
 img{
 display:block;
 max-width:100%;
+}
+
+@keyframes subir{
+0%{
+opacity:0;
+transform:translateY(60px);
+}
+
+100%{
+opacity:1;
+transform:translateY(0);
+}
+}
+
+@keyframes zoom{
+0%{
+opacity:0;
+transform:scale(.8);
+}
+
+100%{
+opacity:1;
+transform:scale(1);
+}
+}
+
+@keyframes brilho{
+0%{
+box-shadow:0 0 0 rgba(76,201,240,0);
+}
+
+50%{
+box-shadow:0 0 40px rgba(76,201,240,.2);
+}
+
+100%{
+box-shadow:0 0 0 rgba(76,201,240,0);
+}
 }
 
 .cabecalho{
@@ -27,9 +66,10 @@ display:flex;
 justify-content:space-between;
 align-items:center;
 padding:18px 60px;
-background:rgba(6,8,15,.75);
-backdrop-filter:blur(14px);
+background:rgba(6,8,15,.72);
+backdrop-filter:blur(16px);
 border-bottom:1px solid rgba(76,201,240,.1);
+animation:subir 1s ease;
 }
 
 .logo-header{
@@ -39,17 +79,18 @@ gap:12px;
 }
 
 .logo-header img{
-width:40px;
-height:40px;
+width:42px;
+height:42px;
 object-fit:contain;
+animation:zoom 1s ease;
 }
 
 .logo-header span{
 font-family:'Orbitron',sans-serif;
-font-size:18px;
+font-size:19px;
 font-weight:700;
-letter-spacing:2px;
-color:#c8d8ff;
+letter-spacing:3px;
+color:#dce7ff;
 }
 
 .menu{
@@ -62,72 +103,60 @@ gap:30px;
 text-decoration:none;
 font-size:14px;
 font-weight:500;
-color:rgba(200,216,255,.7);
-transition:.3s;
+color:rgba(220,231,255,.65);
+transition:.35s;
+position:relative;
+}
+
+.menu a::after{
+content:"";
+position:absolute;
+left:0;
+bottom:-6px;
+width:0%;
+height:2px;
+background:#4cc9f0;
+transition:.4s;
 }
 
 .menu a:hover{
 color:#4cc9f0;
 }
 
+.menu a:hover::after{
+width:100%;
+}
+
 .btn-contato{
-background:#4cc9f0;
+background:linear-gradient(135deg,#4cc9f0,#6ee7ff);
 color:#000;
 border:none;
-padding:10px 18px;
-border-radius:10px;
-font-weight:600;
+padding:11px 20px;
+border-radius:12px;
+font-weight:700;
 cursor:pointer;
-transition:.3s;
+transition:.35s;
+box-shadow:0 0 20px rgba(76,201,240,.2);
 }
+
 .btn-contato:hover{
-transform:scale(1.05);
+transform:translateY(-3px) scale(1.04);
+box-shadow:0 0 30px rgba(76,201,240,.4);
 }
 
 .hero{
-padding:70px 20px 40px;
+padding:90px 20px 70px;
 text-align:center;
+animation:subir 1.2s ease;
 }
 
 .frase{
-font-size:32px;
+font-size:38px;
 font-weight:700;
 font-family:'Orbitron',sans-serif;
-letter-spacing:3px;
-margin-bottom:40px;
-text-shadow:0 0 30px rgba(76,201,240,.4);
-}
-
-.hero img{
-width:320px;
-margin:auto;
-}
-
-.sobre-orbyn{
-display:flex;
-justify-content:center;
-padding:60px 20px;
-}
-
-.sobre-texto{
-max-width:950px;
-background:rgba(255,255,255,.04);
-padding:45px;
-border-radius:25px;
-border:1px solid rgba(76,201,240,.12);
-backdrop-filter:blur(12px);
-}
-
-.sobre-texto h2{
-font-family:'Orbitron',sans-serif;
-font-size:28px;
-margin-bottom:25px;
-color:#4cc9f0;
-}
-
-.sobre-texto p{
-font-size:18px;
-line-height:1.9;
-margin-bottom:20px;
-color:#c8d8ff;
+letter-spacing:4px;
+margin-bottom:45px;
+line-height:1.4;
+text-shadow:0 0 35px rgba(76,201,240,.35);
+animation:subir 1.3s ease;
 }
