@@ -236,3 +236,38 @@ right:15px;
 font-size:28px;
 cursor:pointer;
 }
+@media(max-width:900px){
+
+.hero{
+flex-direction:column-reverse;
+text-align:center;
+padding:120px 20px 60px;
+gap:30px;
+}
+
+.hero h1{
+font-size:36px;
+}
+
+.hero-imagem img{
+width:260px;
+}
+
+.secao-destaque,
+.invertida{
+flex-direction:column;
+}
+
+.secao-destaque img{
+width:100%;
+}
+
+.menu{
+display:none;
+}
+
+.sobre-texto{
+padding:30px;
+}
+
+}
