@@ -80,3 +80,54 @@ font-weight:600;
 cursor:pointer;
 transition:.3s;
 }
+.btn-contato:hover{
+transform:scale(1.05);
+}
+
+.hero{
+padding:70px 20px 40px;
+text-align:center;
+}
+
+.frase{
+font-size:32px;
+font-weight:700;
+font-family:'Orbitron',sans-serif;
+letter-spacing:3px;
+margin-bottom:40px;
+text-shadow:0 0 30px rgba(76,201,240,.4);
+}
+
+.hero img{
+width:320px;
+margin:auto;
+}
+
+.sobre-orbyn{
+display:flex;
+justify-content:center;
+padding:60px 20px;
+}
+
+.sobre-texto{
+max-width:950px;
+background:rgba(255,255,255,.04);
+padding:45px;
+border-radius:25px;
+border:1px solid rgba(76,201,240,.12);
+backdrop-filter:blur(12px);
+}
+
+.sobre-texto h2{
+font-family:'Orbitron',sans-serif;
+font-size:28px;
+margin-bottom:25px;
+color:#4cc9f0;
+}
+
+.sobre-texto p{
+font-size:18px;
+line-height:1.9;
+margin-bottom:20px;
+color:#c8d8ff;
+}
