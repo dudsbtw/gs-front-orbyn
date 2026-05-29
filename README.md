@@ -35,8 +35,8 @@ gs-front-orbyn/
 ## Equipe
 
 # Desenvolvido por:
-Eduardo Felix Frois Silva - 574103
-Gabriel Henique Ongarelli Reis - 572636
-Lucas Rodrigues dos Santos - 571778
-Matheus de Amorim Brito - 572435
-Thiago  Gomes Nascimento - 569436
+- Eduardo Felix Frois Silva - 574103
+- Gabriel Henique Ongarelli Reis - 572636
+- Lucas Rodrigues dos Santos - 571778
+- Matheus de Amorim Brito - 572435
+- Thiago  Gomes Nascimento - 569436
