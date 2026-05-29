@@ -1,20 +1,159 @@
-
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=, initial-scale=1.0">
-    <title>Orbyn</title>
-    <link rel="stylesheet" href="style/style.css">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Orbyn</title>
+
+<link rel="stylesheet" href="style.css">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+<link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;600;700&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 </head>
-<body>      
+
+<body>
+
+<header class="cabecalho">
+
+<div class="logo-header">
+<img src="orbyn_logo_sem_fundo (1).png" alt="Orbyn">
+<span>Orbyn</span>
+</div>
+
+<nav class="menu">
+<a href="#sobre">Sobre</a>
+<a href="#solucoes">Soluções</a>
+<a href="#agricultura">Agro</a>
+<a href="#urbano">Urbano</a>
+
+<button class="btn-contato" onclick="abrirContato()">
+Entre em contato
+</button>
+
+</nav>
+
+</header>
+
+<section class="hero">
+
 <h1 class="frase">
- dados do espaço para cidades mais inteligentes e fazendas mais eficientes
+Transformando territórios com inteligência espacial
 </h1>
 
-<section>
-<img src="img/orbyn_logo_sem_fundo (1).png" >
+<img src="orbyn_logo_sem_fundo (1).png" alt="Logo Orbyn">
+
 </section>
+
+<section id="sobre" class="sobre-orbyn">
+
+<div class="sobre-texto">
+
+<h2>Sobre a Orbyn</h2>
+
+<p>
+A <strong>Orbyn Environment</strong> é uma startup geoespacial que utiliza
+<strong>dados de satélites, inteligência artificial e análise territorial</strong>
+para transformar o planejamento urbano e rural.
+</p>
+
+<p>
+A empresa surgiu para enfrentar desafios causados pelo mal planejamento,
+como desigualdade na distribuição de recursos, impactos climáticos,
+crescimento urbano desorganizado e baixa eficiência agrícola.
+</p>
+
+<p>
+Sua solução é uma plataforma web inteligente capaz de analisar imagens
+de satélite e gerar informações estratégicas em tempo real.
+</p>
+
+</div>
+
+</section>
+
+<section id="solucoes" class="secao-destaque">
+
+<img src="1.avif" alt="Análise de satélite">
+
+<div class="secao-texto">
+
+<span class="secao-tag">Monitoramento</span>
+
+<h2>Análise territorial em tempo real</h2>
+
+<p>
+A Orbyn realiza monitoramento territorial em tempo real utilizando imagens de satélite, inteligência artificial e análise geoespacial. A plataforma acompanha mudanças no solo, riscos ambientais, impactos climáticos, crescimento urbano e produtividade agrícola, gerando alertas automáticos e insights estratégicos para tomadas de decisão mais rápidas, precisas e sustentáveis.
+</p>
+
+</div>
+
+</section>
+
+<section id="urbano" class="secao-destaque invertida">
+
+<img src="2.avif" alt="Planejamento urbano">
+
+<div class="secao-texto">
+
+<span class="secao-tag">Urbano</span>
+
+<h2>Planejamento urbano inteligente</h2>
+
+<p>
+A Orbyn auxilia no planejamento urbano através da análise inteligente de dados territoriais. A plataforma identifica crescimento desorganizado, áreas críticas e problemas de infraestrutura, permitindo que governos e gestores tomem decisões mais sustentáveis, eficientes e baseadas em dados reais.
+</p>
+
+</div>
+
+</section>
+
+<section id="agricultura" class="secao-destaque">
+
+<img src="3.avif" alt="Agricultura">
+
+<div class="secao-texto">
+
+<span class="secao-tag">Agro</span>
+
+<h2>Produtividade agrícola monitorada</h2>
+
+<p>
+Na área agrícola, a Orbyn monitora propriedades rurais através de dados geoespaciais, analisando solo, clima e produtividade. O sistema detecta irrigação irregular, prevê riscos ambientais e identifica quais regiões são mais adequadas para determinadas culturas, ajudando produtores a aumentar a eficiência e reduzir desperdícios.
+</p>
+
+</div>
+
+</section>
+
+<div id="modalContato" class="modal">
+
+<div class="modal-box">
+
+<span class="fechar" onclick="fecharContato()">&times;</span>
+
+<h2>Entre em contato</h2>
+
+<p>lucasrodriguessantos569@gmail.com</p>
+<p>(11) 97410-7432</p>
+
+</div>
+
+</div>
+
+<script>
+
+function abrirContato(){
+document.getElementById("modalContato").style.display="flex";
+}
+
+function fecharContato(){
+document.getElementById("modalContato").style.display="none";
+}
+
+</script>
 
 </body>
 </html>
