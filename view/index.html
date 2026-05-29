@@ -1,10 +1,11 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<title>Orbyn</title>
+<title>Orbyn Environment</title>
 
 <link rel="stylesheet" href="style.css">
 
@@ -20,7 +21,7 @@
 
 <div class="logo-header">
 <img src="orbyn_logo_sem_fundo (1).png" alt="Orbyn">
-<span>Orbyn</span>
+<span>ORBYN</span>
 </div>
 
 <nav class="menu">
@@ -30,20 +31,35 @@
 <a href="#urbano">Urbano</a>
 
 <button class="btn-contato" onclick="abrirContato()">
-Entre em contato
+Contato
 </button>
-
 </nav>
 
 </header>
 
 <section class="hero">
 
-<h1 class="frase">
+<div class="hero-texto">
+
+<span class="tag">Startup Geoespacial</span>
+
+<h1>
 Transformando territórios com inteligência espacial
 </h1>
 
+<p>
+A Orbyn utiliza imagens de satélite, inteligência artificial e análise territorial para apoiar decisões mais inteligentes em cidades e áreas rurais.
+</p>
+
+<a href="#sobre" class="btn-principal">
+Conheça a Orbyn
+</a>
+
+</div>
+
+<div class="hero-imagem">
 <img src="orbyn_logo_sem_fundo (1).png" alt="Logo Orbyn">
+</div>
 
 </section>
 
@@ -54,20 +70,15 @@ Transformando territórios com inteligência espacial
 <h2>Sobre a Orbyn</h2>
 
 <p>
-A <strong>Orbyn Environment</strong> é uma startup geoespacial que utiliza
-<strong>dados de satélites, inteligência artificial e análise territorial</strong>
-para transformar o planejamento urbano e rural.
+A <strong>Orbyn Environment</strong> é uma startup voltada para análise territorial inteligente, utilizando geotecnologia, inteligência artificial e dados de satélite.
 </p>
 
 <p>
-A empresa surgiu para enfrentar desafios causados pelo mal planejamento,
-como desigualdade na distribuição de recursos, impactos climáticos,
-crescimento urbano desorganizado e baixa eficiência agrícola.
+Nossa plataforma monitora transformações urbanas e rurais em tempo real, identificando riscos ambientais, padrões de crescimento e oportunidades para desenvolvimento sustentável.
 </p>
 
 <p>
-Sua solução é uma plataforma web inteligente capaz de analisar imagens
-de satélite e gerar informações estratégicas em tempo real.
+O objetivo é transformar grandes volumes de dados em informações acessíveis para governos, empresas e produtores rurais.
 </p>
 
 </div>
@@ -76,7 +87,7 @@ de satélite e gerar informações estratégicas em tempo real.
 
 <section id="solucoes" class="secao-destaque">
 
-<img src="1.avif" alt="Análise de satélite">
+<img src="1.avif" alt="Monitoramento">
 
 <div class="secao-texto">
 
@@ -85,7 +96,7 @@ de satélite e gerar informações estratégicas em tempo real.
 <h2>Análise territorial em tempo real</h2>
 
 <p>
-A Orbyn realiza monitoramento territorial em tempo real utilizando imagens de satélite, inteligência artificial e análise geoespacial. A plataforma acompanha mudanças no solo, riscos ambientais, impactos climáticos, crescimento urbano e produtividade agrícola, gerando alertas automáticos e insights estratégicos para tomadas de decisão mais rápidas, precisas e sustentáveis.
+A base da Orbyn é a tecnologia geoespacial. A plataforma utiliza imagens de satélite, dados geográficos e inteligência artificial para transformar grandes volumes de informações territoriais em mapas, alertas e recomendações estratégicas. Dessa forma, decisões podem ser tomadas com mais rapidez, precisão e embasamento.
 </p>
 
 </div>
@@ -94,7 +105,7 @@ A Orbyn realiza monitoramento territorial em tempo real utilizando imagens de sa
 
 <section id="urbano" class="secao-destaque invertida">
 
-<img src="2.avif" alt="Planejamento urbano">
+<img src="2.avif" alt="Planejamento Urbano">
 
 <div class="secao-texto">
 
@@ -103,7 +114,7 @@ A Orbyn realiza monitoramento territorial em tempo real utilizando imagens de sa
 <h2>Planejamento urbano inteligente</h2>
 
 <p>
-A Orbyn auxilia no planejamento urbano através da análise inteligente de dados territoriais. A plataforma identifica crescimento desorganizado, áreas críticas e problemas de infraestrutura, permitindo que governos e gestores tomem decisões mais sustentáveis, eficientes e baseadas em dados reais.
+No ambiente urbano, a Orbyn monitora o crescimento das cidades e identifica problemas de infraestrutura, ocupação irregular e áreas de risco. As análises ajudam gestores públicos e empresas a planejar melhor investimentos, serviços e expansão urbana de forma mais sustentável
 </p>
 
 </div>
@@ -121,7 +132,7 @@ A Orbyn auxilia no planejamento urbano através da análise inteligente de dados
 <h2>Produtividade agrícola monitorada</h2>
 
 <p>
-Na área agrícola, a Orbyn monitora propriedades rurais através de dados geoespaciais, analisando solo, clima e produtividade. O sistema detecta irrigação irregular, prevê riscos ambientais e identifica quais regiões são mais adequadas para determinadas culturas, ajudando produtores a aumentar a eficiência e reduzir desperdícios.
+A Orbyn auxilia produtores rurais por meio do monitoramento de áreas agrícolas utilizando imagens de satélite e inteligência artificial. A plataforma analisa fatores como solo, clima, irrigação e produtividade, identificando riscos e oportunidades para aumentar a eficiência da produção e reduzir desperdícios.
 </p>
 
 </div>
@@ -134,7 +145,7 @@ Na área agrícola, a Orbyn monitora propriedades rurais através de dados geoes
 
 <span class="fechar" onclick="fecharContato()">&times;</span>
 
-<h2>Entre em contato</h2>
+<h2>Contato</h2>
 
 <p>lucasrodriguessantos569@gmail.com</p>
 <p>(11) 97410-7432</p>
@@ -144,7 +155,6 @@ Na área agrícola, a Orbyn monitora propriedades rurais através de dados geoes
 </div>
 
 <script>
-
 function abrirContato(){
 document.getElementById("modalContato").style.display="flex";
 }
@@ -152,7 +162,6 @@ document.getElementById("modalContato").style.display="flex";
 function fecharContato(){
 document.getElementById("modalContato").style.display="none";
 }
-
 </script>
 
 </body>
