@@ -26,10 +26,6 @@ gs-front-orbyn/
 
 ---
 
-## Como rodar
-
-> Em breve.
-
 ---
 
 ## Equipe
